@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nanum Brush Script', cursive;
+}
+:root{
+    --black: #333;
+    --white: #fff;
+}
+header{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px 100px;
+    /*위아래 40px 각각 오른쪽 왼쪽 각각 100px*/
+    z-index: 10000;
+}
+header .logo{
+    position: relative;
+    display: inline-flex;
+    /*inline 형식의 flex "컨테이너" 들을 만듬 즉 flex안의 요소가 flex컨테이너라면
+    그게 inline으로 쌓임*/
+    color: var(--black);
+    text-decoration: none;
+    font-size: 2em;
+    /*em은 상위 요소의 몇배인지. 즉 .logo의 폰트 사이즈는 상위 요소인 header의
+    폰트사이즈의 2배임*/
+    font-weight: 700;
+    /*글자 두께*/
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    /*대문자인지 소문자인지 
+    ex) upppercase: 대문자
+        lowercase: 소문자*/
+    
+}
+.rightside{
+    display: flex;
+
+}
+.btns{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.btns ion-icon{
+    font-size: 1.5em;
+    color: var(--black);
+}
+.btns.menu ion-icon{
+    font-size: 3em;
+}
+.btns ion-icon:nth-child(2){
+    display: none;
+}
