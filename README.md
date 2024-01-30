@@ -10,6 +10,8 @@
 ## 🛠️ 기술 스택 🛠️
 <div align="center">
   <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">  
+  <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=black">  
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=black">  
 </div>
 
 ## 🧰 개발 도구 🧰
@@ -17,6 +19,7 @@
 <div align="center">
     <img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white">
     <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white">
+    <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
 </div>
 
 
@@ -28,7 +31,7 @@
 - 반응형 애니메이션 구현 (sliding menu)
 - 반응형 UI 제작
 
-## 객체 선언 및 사용
+## VanilaJs을 활용한 다크 모드 구현
 
 ```javascript
 var human = function (name, old, height) {
